@@ -1,5 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import './components/Componente'
+import Componente from './components/Componente';
+import Propiedades from './components/Propiedades';
 
 function App() {
   let nombre = 'John'
@@ -33,6 +36,11 @@ function App() {
         >
           Learn React
         </a>
+        <section>
+          <Componente msg="Hola soy compodnente desde appjs"></Componente>
+          <hr/>
+          <Propiedades></Propiedades>
+        </section>
       </header>
     </div>
   );

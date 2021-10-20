@@ -1,0 +1,25 @@
+{
+    "frameworks":[
+        {
+            "id": 1,
+            "name": "React",
+            "web": "https://reactjs.org"
+        },
+        {
+            "id": 1,
+            "name": "Angular",
+            "web": "https://angular.io"
+        },
+        {
+            "id": 1,
+            "name": "Vue",
+            "web": "https://vuejs.org"
+        },
+        {
+            "id": 1,
+            "name": "JS",
+            "web": "https://jssoluciones.pe"
+        }
+    ]
+
+}

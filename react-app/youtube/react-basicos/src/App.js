@@ -3,6 +3,11 @@ import './App.css'
 import Componente from './components/Componente'
 import Propiedades from './components/Propiedades'
 import Estado from './components/Estado'
+import RenderizadoCondicional from './components/RenderizadoCondicional'
+import RenderizadoElementos from './components/RenderizadoElementos'
+import {EventosES7, MasSobreEventos} from './components/Eventos'
+import ComunicacionComponente from './components/ComunicacionComponente'
+import CicloVida from './components/CicloVida'
 
 function App() {
   let nombre = 'John'
@@ -11,6 +16,25 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <section>
+          <CicloVida></CicloVida>
+        </section>
+        <section>
+          <ComunicacionComponente></ComunicacionComponente>
+          <br/>
+          <MasSobreEventos></MasSobreEventos>          
+          <br/>
+          <EventosES7></EventosES7>
+        </section>
+        
+        <section>
+          <RenderizadoElementos></RenderizadoElementos>
+        </section>
+        
+        <section>
+          <RenderizadoCondicional></RenderizadoCondicional>
+        </section>
+
         <section>
           <Componente msg="Hola soy componente desde appjs"></Componente>
           <hr/>

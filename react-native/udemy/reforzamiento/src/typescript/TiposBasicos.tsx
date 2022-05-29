@@ -1,20 +1,20 @@
 const TiposBasicos = () => {
-    //let nombre: string | number = 'Fernano'
-    let nombre: string = 'Fernando'
+    let apellido: string | number = 33
+    let nombre: string = 'Jorge'
     let edad: number = 35
-    const estaActivo: boolean = true;
+    const estaActivo: boolean = true
 
-    //const poderes = ['Velocidad', 'Volar', 'Respirar en el agua']
-    const poderes: string[] = []
+    const poderes : string[] = ['Velocidad', 'Volar', 'Respirar en el agua']
+    //const poderes: string[] = []
 
     
     
     return (
       <>
         <h2>Tipos Básicos</h2>
-        {nombre}, {edad}, {(estaActivo ? 'Activo': 'No Activo')}
+        {apellido} {nombre}, {edad}, {(estaActivo ? 'Activo': 'No Activo')}
         <br/>
-        { poderes.join(',')}
+        { poderes.join(', ')}
       </>
     )
   }

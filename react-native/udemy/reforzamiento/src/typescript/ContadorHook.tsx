@@ -1,7 +1,7 @@
 import { useCounter } from "../hooks/useCounter"
 
 const ContadorHook = () => {
-    const {valor, acumular} = useCounter(5)
+    const {valor, acumular} = useCounter(18)
 
     return (
         <>
@@ -11,6 +11,7 @@ const ContadorHook = () => {
                 className="btn btn-primary"
                 onClick={ () => acumular(1) }
             > +1 </button>
+            &nbsp;
             <button 
                 className="btn btn-primary"
                 onClick={ () => acumular(-1) }

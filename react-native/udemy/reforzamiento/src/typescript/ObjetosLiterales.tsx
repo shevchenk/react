@@ -19,12 +19,22 @@ const ObjetosLiterales = () => {
         }
     }
 
+    const persona2 = { //JavaScript
+        nombreCompleto: 'Fernando',
+        edad: 35,
+        direccion: {
+            pais: 'Perú',
+            casaNo: 123
+        }
+    }
+
     return (
         <>
         <h2>Objetos Literales</h2>
         <code>
             <pre>
                 { JSON.stringify(persona, null, 2) }
+                { JSON.stringify(persona2, null, 2) }
             </pre>
         </code>
         </>

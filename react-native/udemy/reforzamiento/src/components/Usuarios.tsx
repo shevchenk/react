@@ -46,7 +46,7 @@ export const Usuarios = () => {
                 className="btn btn-primary"
                 onClick={ paginaAnterior }
             >Atras</button>
-
+            &nbsp;
             <button
                 className="btn btn-primary"
                 onClick={ paginaSiguiente }

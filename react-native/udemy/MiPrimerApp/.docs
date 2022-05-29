@@ -1,0 +1,17 @@
+npx react-native init MiProyecto --template react-native-template-typescript //Crear mi proyecto
+abb devices //con esto se verifica si esta conectado y probado
+npx react-native start --port=8088 //Inicializa el proyecto
+
+create file: android\local.properties
+    sdk.dir=C:\\Users\\shevchenko\\AppData\\Local\\Android\\Sdk
+
+In file: android\settings.gradle add line
+    org.gradle.java.home=C:\\Program Files\\OpenJDK\\openjdk-11.0.15_10
+
+In file: .eslintrc.js add line
+    rules: {
+        'prettier/prettier':0, //Para evitar que moleste con los espacios de las llaves entre otras cosas.
+    },
+
+npx rect-native run-android //Inicia el apk
+npm install axios // para ejecutar servicios
